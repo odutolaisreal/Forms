@@ -1,0 +1,58 @@
+textarea {
+    resize: none;
+}
+
+button {
+    background-color: darkseagreen;
+    border: 1px solid rgba(124, 85, 41, 0.753);
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+}
+
+body {
+    background-color: bisque;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+form {
+    background-color: antiquewhite;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px peru;
+}
+
+.form-control {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-control input,
+.form-control select,
+.form-control textarea {
+    border: 1px solid pink;
+    border-radius: 5px;
+    font-family: inherit;
+    padding: 15px;
+    display: block;
+    width: 90%;
+}
+
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+    display: inline;
+    width: auto;
+
+}
